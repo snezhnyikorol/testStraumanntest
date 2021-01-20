@@ -159,15 +159,15 @@ section {
 }
 .col:nth-child(1) {
   opacity: 0;
-  transition: opacity 300ms ease-in-out 1000ms;
+  transition: opacity 600ms ease-in-out 600ms;
 }
 .col:nth-child(2) {
   opacity: 0;
-  transition: opacity 300ms ease-in-out 1100ms;
+  transition: opacity 600ms ease-in-out 750ms;
 }
 .col:nth-child(3) {
   opacity: 0;
-  transition: opacity 300ms ease-in-out 1200ms;
+  transition: opacity 600ms ease-in-out 900ms;
 }
 
 .active .col:nth-child(1) {

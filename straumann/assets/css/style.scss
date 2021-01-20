@@ -119,6 +119,7 @@ section {
       opacity: 0;
       transition: opacity 300ms ease-in-out;
       color: #8FB91C;
+      //text-shadow: rgba(0,0,0,0.7) 0 0 10px, rgba(0,0,0,0.5) 10px 0 20px, rgba(0,0,0,0.5) -10px 0 20px, rgba(0,0,0,0.5) 0 10px 20px, rgba(0,0,0,0.5) 0 -10px 20px;
     }
 
     .dot {
@@ -175,17 +176,17 @@ section {
 
   &:nth-child(1) {
     opacity: 0;
-    transition: opacity 300ms ease-in-out 1000ms;
+    transition: opacity 600ms ease-in-out 600ms;
   }
 
   &:nth-child(2) {
     opacity: 0;
-    transition: opacity 300ms ease-in-out 1100ms;
+    transition: opacity 600ms ease-in-out 750ms;
   }
 
   &:nth-child(3) {
     opacity: 0;
-    transition: opacity 300ms ease-in-out 1200ms;
+    transition: opacity 600ms ease-in-out 900ms;
   }
 }
 
